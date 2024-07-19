@@ -4,5 +4,63 @@
   padding: 2rem;
   text-align: center;
 }
+.kalnia-glaze {
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 500;
+}
 
+header {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
 
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #d0b0cc;
+  margin: 15px;
+}
+
+#speed, #distance {
+  color: #fff;
+}
+
+button {
+  padding: 8px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #d0b0cc;
+  color:#fff;
+  margin: 15px;
+  margin-bottom: 50px;
+  width: 80px;
+}
+
+button:hover {
+  background-color: #7a2970;
+  cursor: pointer;
+}
+
+#displayResults {
+  background-color: #d0b0cc;
+  border-radius: 5px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-end;
+  margin-top: 25%;
+}

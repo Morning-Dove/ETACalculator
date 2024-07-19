@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>ETA Calculator</h1>
+        <h1 className="kalnia-glaze">ETA Calculator</h1>
       </header>
       <main>
         <Calculator />
